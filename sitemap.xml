@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://napishu-kursovuy.ru/</loc></url>
-  <url><loc>https://napishu-kursovuy.ru/articles/</loc></url>
+  <url><loc>https://napishu-kursovuy.ru/index.html</loc></url>
+  <url><loc>https://napishu-kursovuy.ru/articles/index.html</loc></url>
+  <url><loc>https://napishu-kursovuy.ru/page2.html</loc></url>
+  <url><loc>https://napishu-kursovuy.ru/page3.html</loc></url>
+  <url><loc>https://napishu-kursovuy.ru/page4.html</loc></url>
+  <url><loc>https://napishu-kursovuy.ru/page5.html</loc></url>
+  <url><loc>https://napishu-kursovuy.ru/page6.html</loc></url>
   <url><loc>https://napishu-kursovuy.ru/articles/gde-zakazat-kursovuyu.html</loc></url>
   <url><loc>https://napishu-kursovuy.ru/articles/kak-napisat-aktualnost-kursovoy.html</loc></url>
   <url><loc>https://napishu-kursovuy.ru/articles/kak-napisat-cel-i-zadachi-kursovoy.html</loc></url>
