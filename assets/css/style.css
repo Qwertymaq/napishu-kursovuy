@@ -21,12 +21,13 @@ nav a:hover{color:var(--accent);text-decoration:none}
 .section-title{font-size:1.5rem;font-weight:700;margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid var(--accent)}
 .articles-grid{display:grid;grid-template-columns:1fr;gap:20px}
 @media(min-width:600px){.articles-grid{grid-template-columns:1fr 1fr}}
-.article-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:box-shadow .2s}
+.article-card{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:box-shadow .2s;position:relative}
 .article-card:hover{box-shadow:var(--shadow)}
 .article-card .cat{font-size:.75rem;text-transform:uppercase;color:var(--accent);font-weight:600;letter-spacing:.5px}
 .article-card h2{font-size:1.15rem;margin:8px 0 10px}
 .article-card h2 a{color:var(--text)}
 .article-card h2 a:hover{color:var(--accent)}
+.article-card h2 a::after{content:"";position:absolute;inset:0}
 .article-card p{font-size:.92rem;color:var(--text-light);margin-bottom:12px}
 .article-card .meta{font-size:.8rem;color:var(--text-light)}
 .cta-box{background:var(--bg-gray);border:2px solid var(--accent);border-radius:var(--radius);padding:28px;margin:32px 0;text-align:center}
