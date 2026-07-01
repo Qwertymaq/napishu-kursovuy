@@ -51,3 +51,7 @@ footer .container{display:flex;flex-wrap:wrap;justify-content:space-between;gap:
 footer a{color:rgba(255,255,255,.7)}
 footer a:hover{color:#fff}
 @media(max-width:600px){.hero{padding:40px 0}.hero h1{font-size:1.5rem}.page{padding:24px 0}nav a{margin-left:12px;font-size:.82rem}.container{padding:0 16px}}
+.pagination{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:40px;flex-wrap:wrap}
+.page-link{display:inline-flex;align-items:center;justify-content:center;min-width:40px;height:40px;padding:0 12px;border:1px solid var(--border);border-radius:6px;font-size:.9rem;color:var(--text);background:var(--bg);transition:all .15s}
+.page-link:hover{background:var(--accent);color:#fff;border-color:var(--accent);text-decoration:none}
+.page-link.current{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600;cursor:default}
