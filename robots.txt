@@ -1,5 +1,7 @@
 User-agent: *
 Disallow:
 
+Sitemap: https://napishu-kursovuy.ru/sitemap.xml
+
 
 
