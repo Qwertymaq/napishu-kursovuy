@@ -3,5 +3,8 @@ Disallow:
 
 Sitemap: https://napishu-kursovuy.ru/sitemap.xml
 
+# RSS-лента
+Sitemap: https://napishu-kursovuy.ru/rss.xml
+
 
 
